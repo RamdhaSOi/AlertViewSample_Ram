@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    UIAlertView * alert;
+}
+- (IBAction)ShowAlert:(id)sender;
 @end
